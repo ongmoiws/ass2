@@ -6,6 +6,31 @@ body {
 
 div {
   font-size: 1em;
+  display: inline-block;
+}
+
+.menu {
+  border-radius: 5px;
+  padding: 8px 20px 8px 20px;
+  background-color: #F0F0F050;
+  box-shadow: 0px;
+  border-width: 0;
+
+  font-size: 0.9em;
+
+  margin: auto;
+  margin-top: 10px;
+  align-content: center;
+
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: #F0F0F0;
+}
+
+a {
+  color: #FFFFFF
 }
 
 footer {
@@ -57,6 +82,21 @@ f1 {
 
 f2 {
   font-weight: 500;
+}
+
+error {
+  border-radius: 5px;
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  background-color: #D01700aa;
+  color: #FFFFFF;
+
+  font-size: 0.9em;
+  border-width: 0.5px;
+  border-color: #909090;
+
+
 }
 
 .input {

@@ -6,9 +6,19 @@
   </head>
 
   <body>
-    <p2>Logged in as </p2>
-    <p1>Manager</p1>
+    <div>
+      <p2>Logged in as </p2>
+      <p1>Manager</p1>
+    </div>
+    <div style="margin-right: 15px; float:right">
+      <button class="menu">Search</button>
+      <button class="menu">Add patient</button>
+      <button class="menu">Doctors manager</button>
+      <button class="menu">Report</button>
+    </div>
     <br />
+    <br />
+    <error>Cannot find any results! <a href="">Add new record?</a></error>
 
     <form method="POST" class="form form2" action="http://localhost:8080/form.php">
 

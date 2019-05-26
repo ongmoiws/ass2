@@ -1,19 +1,23 @@
 <html>
   <head>
     <title>Demo Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <form method="POST" action="http://localhost:8080/form.php">
-      <br>ID:</br>
-      <input type="text" name="id"></input>
-      <br>Name:</br>
-      <input type="text" name="name"></input>
-      <br>Score:</br>
-      <input type="text" name="score"></input>
-      <br>Register date:</br>
-      <input type="datetime-local" name="register_date"></input>
-      <br></br>
-      <input type="submit" />
+    <form method="POST" class="form form1" action="http://localhost:8080/form.php">
+      <cap>Username</cap>
+      <input type="text" name="username" class="input input1"></input>
+      <cap>Password</cap>
+      <input type="password" name="password" class="input input1"></input>
+      <br />
+      <input type="submit" class="button button2" style="margin: 10px 0px 0px 50px;"/>
     </form>
   </body>
+
+  <footer>
+      <f1>Assignment 2 - SQL</f1><br />
+      <f2>Designed by Nhat Nguyen, Tien Huynh, Tuan Pham, Ho Vo, Quan Nguyen</f2><br />
+  </footer>
 </html>

@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'root', 'Pr0sTiTute',example) or die("Connect failed: %s\n". $conn -> error);
+$conn = new mysqli('localhost', 'root', 'pass',example) or die("Connect failed: %s\n". $conn -> error);
 // Check connection
 if (mysqli_connect_errno())
 {

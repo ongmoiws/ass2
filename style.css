@@ -9,6 +9,35 @@ div {
   display: inline-block;
 }
 
+input[type="date"] {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+}
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+}
+input[type="date"]:focus {
+  color: #aaa;
+}
+input[type="date"]:valid {
+    color: #000000;
+}
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+}
+
 .menu {
   border-radius: 5px;
   padding: 8px 20px 8px 20px;

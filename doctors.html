@@ -19,27 +19,17 @@
     <br />
     <br />
 
-    <form method="POST" class="form form2" action="http://localhost:8080/default.php" style="width: 50%;">
+    <form method="POST" class="form form2" action="http://localhost:8080/doctor.php" style="width: 20%;">
 
-      <p1 style="padding-left: 10px;">Patient Information</p1>
+      <p1 style="padding-left: 50px;">Doctor Data</p1>
       <br />
       <br />
-      <input type="text" name="name" placeholder="Patient name"
-          class="input input2" />
-      <input type="date" name="admission" placeholder="Admission date"
-          class="input input2" style="width: 250px;"/>
-      <input type="date" name="discharge"  placeholder="Discharge date"
-          class="input input2" style="width: 250px;"/>
+      <select type="dropdown" name="doctor" placeholder="Doctor" class="input input1" >
+        <option value="Doctor">Doctor</option>
+      </select>
+
       <br />
-      <input type="text" name="address" placeholder="Address"
-          class="input input2" style="width: 430px;"/>
-      <p2 style="padding-left: 10px;">Female</p2>
-      <input type="checkbox" name="gender" placeholder="Female"
-          class="input" />
-      <input type="tel" name=""  placeholder="Phone number"
-          class="input input2" />
-      <br />
-      <input type="submit" style="margin: 15px 0px 0px 8px;"
+      <input type="submit" style="margin: 15px 0px 0px 48px;"
           class="button button2-submit" />
     </form>
 

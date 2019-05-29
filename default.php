@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'root', 'pass',example) or die("Connect failed: %s\n". $conn -> error);
+$c = oci_connect($username, $password, $database);
 // Check connection
 if (mysqli_connect_errno())
 {

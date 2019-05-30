@@ -11,10 +11,10 @@
       <p1>Manager</p1>
     </div>
     <div style="margin-right: 15px; float:right">
-      <button class="menu">Search</button>
-      <button class="menu">Add patient</button>
-      <button class="menu">Doctors manager</button>
-      <button class="menu">Report</button>
+      <button class="menu" onclick="window.location.href = 'manager.php';">Search</button>
+      <button class="menu" onclick="window.location.href = 'add.php';">Add patient</button>
+      <button class="menu" onclick="window.location.href = 'doctors.php';">Doctors manager</button>
+      <button class="menu" onclick="window.location.href = 'report.php';">Report</button>
     </div>
     <br />
     <br />

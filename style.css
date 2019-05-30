@@ -118,13 +118,13 @@ error {
   width: 300px;
   height: 20px;
   padding: 10px;
-  background-color: #D01700aa;
+  margin-left: 5px;
+  background-color: #007cffaa;
   color: #FFFFFF;
 
   font-size: 0.9em;
   border-width: 0.5px;
   border-color: #909090;
-
 
 }
 
